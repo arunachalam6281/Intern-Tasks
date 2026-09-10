@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me & Contact</title>
+    <style>
+        /* Apply border-box to all elements */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Body - center content */
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            max-width: 800px;
+            margin: 0 auto; /* Center the page */
+        }
+
+        /* HEADER STYLING */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ecf0f1;
+        }
+
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+            color: #bdc3c7;
+        }
+
+        /* NAVIGATION STYLING */
+        nav {
+            background-color: #34495e;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            display: inline-block;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #c9c9c9;
+        }
+
+        /* MAIN CONTENT */
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* SECTION STYLING */
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        /* ARTICLE STYLING */
+        article {
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-left: 4px solid #3498db;
+            border-radius: 5px;
+        }
+
+        article h3 {
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+        }
+
+        article p {
+            margin: 0;
+            line-height: 1.6;
+            color: #34495e;
+        }
+
+        /* IMAGE STYLING */
+        img {
+            width: 150px;
+            height: 150px;
+            border: 3px solid #3498db;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        /* LIST STYLING */
+        ul {
+            color: #34495e;
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* FORM STYLING */
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 2px solid #d3dadf;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #95a5a6;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #20ff0c;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        button[type="reset"] {
+            background-color: #95a5a6;
+        }
+
+        button[type="reset"]:hover {
+            background-color: #7f8c8d;
+        }
+
+        /* FOOTER STYLING */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>John Doe</h1>
+        <p>Full Stack Developer</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        
+        <!-- ABOUT SECTION -->
+        <section>
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="John Doe Profile Picture">
+            
+            <article>
+                <h3>My Journey</h3>
+                <p>I started my programming journey 2 years ago with a passion for web development. I love building interactive applications and learning new technologies. Every day is an opportunity to grow and improve my skills.</p>
+            </article>
+            
+            <article>
+                <h3>Skills</h3>
+                <p>I specialize in React, Spring Boot, and MySQL. I'm passionate about clean code and user experience design. I believe in writing code that is not only functional but also maintainable and scalable.</p>
+            </article>
+            
+            <article>
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Gaming (Nintendo Switch)</li>
+                    <li>Reading tech blogs</li>
+                    <li>Coding side projects</li>
+                    <li>Playing cricket</li>
+                    <li>Photography</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section>
+            <h2>Contact Me</h2>
+            
+            <form action="/submit-contact" method="POST">
+                
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear</button>
+                
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+        <p>Email: john@example.com | Phone: +91-XXXXXXXXXX</p>
+    </footer>
+
+</body>
+
+</html>

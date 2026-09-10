@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 10: Conditionals & Loops</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 40px;
+            background-color: #2c3e50;
+            color: white;
+        }
+        h1 {
+            color: #3498db;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 20px 0;
+            transition: all 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        #output {
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📝 Day 10: Conditionals & Loops</h1>
+    <p>This script demonstrates loops, conditionals, and problem-solving.</p>
+    
+    <button onclick="runScript()">🚀 Run Script</button>
+    
+    <div id="output">
+        <p>Open Developer Console (F12) to see output from js10.js</p>
+    </div>
+
+    <script src="js10.js"></script>
+    <script>
+        function runScript() {
+            const output = document.getElementById('output');
+            output.innerHTML = '<p style="color: #3498db;"><strong>✅ Script executed!</strong><br>Check Console (F12) for detailed output.</p>';
+        }
+    </script>
+
+</body>
+</html>

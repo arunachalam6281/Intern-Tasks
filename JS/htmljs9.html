@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics - Day 9</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #34495e;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        .instruction {
+            background-color: #27ae60;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        code {
+            background-color: #2c3e50;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .output {
+            background-color: #1a1a1a;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📝 JavaScript Basics - Day 9</h1>
+        
+        <h2>Variables & Data Types</h2>
+        <p>This page demonstrates JavaScript variables, data types, and template literals.</p>
+
+        <div class="instruction">
+            <strong>✅ Instructions:</strong><br>
+            1. Open Developer Tools (F12)<br>
+            2. Go to Console tab<br>
+            3. See the output from script.js
+        </div>
+
+        <h2>Topics Covered:</h2>
+        <ul>
+            <li><code>const</code>, <code>let</code>, <code>var</code> - Variable declaration</li>
+            <li>Data types: String, Number, Boolean, null, undefined</li>
+            <li><code>typeof</code> operator - Check data types</li>
+            <li>Type conversion - Convert between types</li>
+            <li>Template literals - String interpolation with ${}</li>
+            <li>Operators - Arithmetic, comparison, logical</li>
+            <li>String methods - toUpperCase(), toLowerCase(), length</li>
+        </ul>
+
+        <h2>Console Output:</h2>
+        <p>Open your browser's Developer Console (F12) to see the output!</p>
+
+        <button onclick="runScript()">🚀 Run Script Again</button>
+
+        <div id="output" class="output"></div>
+    </div>
+
+    <script src="js9.js"></script>
+    <script>
+        function runScript() {
+            const output = document.getElementById('output');
+            output.innerHTML = '<p style="color: #3498db;">Script executed! Check the Console (F12) for detailed output.</p>';
+        }
+    </script>
+
+</body>
+</html>

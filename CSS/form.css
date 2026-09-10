@@ -1,0 +1,145 @@
+/* .align {
+    text-align: center;
+} */
+body {
+    background-color:bisque;
+}
+/* .form-row > label:first-child{
+    display: inline-block;
+    width: 100px;
+}
+.form-row {
+    margin-bottom: 30px;
+} */
+/* .demo {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+} */
+/* .demo {
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+/* .as {
+    text-align: center;
+} */
+/* .abc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} */
+/* .demo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+} */
+/* .demo {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    border: 1px solid black;
+    flex-wrap:wrap-reverse;
+}
+.a,.b,.c {
+    width: 300px;
+    background-color: lightcoral;
+    text-align: center;
+    align-self: center;
+}
+.d {
+    width: 400px;
+    background-color: #fff;
+    text-align: justify;
+    line-height: 1;
+    al
+} */
+
+/* Absolute and Fixed Example Absolute moves with the anchor and fixed stays at where we put him */
+/* .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 15px;
+    border: 1px solid black;
+}
+.content {
+    height: 2000px;
+    background-color: bisque;
+    padding-top: 60px;
+} */
+
+/* Relative and Absolute Positioning Example */
+/* .parent {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-top: 800px;
+    margin-bottom: 1500px;
+}
+.child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: lightcoral;
+    padding: 10px;
+    border: 1px solid black;
+} */
+
+/* Sticky example it stays at the top of the page until its content is scrolled out and it give a way to next stays at the top */
+/* .section {
+    height: 1200px;
+    background-color: bisque;
+    border: 1px solid black;
+    margin-bottom: 200px;
+}
+
+.heading {
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.section p {
+    padding: 0 20px;
+} */
+
+/* Example for Z-index without this whichever is in the last in HTML that will shown */
+/* .wrapper {
+    position: relative;
+}
+
+.box1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 1;
+}
+
+.box2 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 2;
+} */
+
